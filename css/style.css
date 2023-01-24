@@ -7,10 +7,6 @@
 /* Debug*/
 
 
-.debug main .lower-main{
-    background-color: green;
-    height: 500px;
-}
 
 .debug #footer-left-big{
     background-color: pink;
@@ -42,14 +38,19 @@
 
 }
 
-.white{
+.button.white{
     color: #000;
     background-color: #fff;
 }
 
-.black{
+.button.black{
     color: #fff;
     background-color: #000;
+}
+
+.button.blue{
+    color: #fff;
+    background-color: #7289da;
 }
 
 .header-top{
@@ -130,17 +131,35 @@ section{
     width: 100%;
 }
 
-.section-text h2{
+.section-text h2,section .lower-main h2{
     font-size: 50px;
 }
 
-.section-text p{
+.section-text p,section .lower-main p{
     padding-top: 30px;
     line-height: 25px;
 }
 
 section:nth-child(2n+2){
-    background-color: lightgray;
+    background-color: #f6f6f6;
+}
+
+section .lower-main{
+    text-align: center;
+}
+
+#lower-title {
+    height: 50px;
+    font-size: 25px;
+}
+
+#lower-title h3{
+    margin: -20px 0;
+}
+
+.lower-main a{
+    display: inline-block;
+    margin: 50px;
 }
 
 footer{
