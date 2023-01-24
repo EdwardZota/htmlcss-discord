@@ -221,7 +221,7 @@ footer{
     align-items: center;
     border-top: 2px solid #4f5d8c;
 }
-
+/* sezione per bonus wave*/
 .wave {
     width: 100%;
     background-repeat: no-repeat;
@@ -233,4 +233,12 @@ footer{
 
 .upper{
     transform: rotate(180deg);
+}
+
+/* sezione per bonus hover */
+
+a:hover{
+    font-size: 150%;
+    font-family: monospace;
+    box-shadow: 0 0 15px red;
 }
