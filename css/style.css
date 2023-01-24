@@ -6,21 +6,6 @@
 
 /* Debug*/
 
-.debug .header-bottom{
-    background-color: blue;
-
-}
-
-
-.debug main .section-image{
-    background-color: dodgerblue;
-    height: 400px;
-}
-
-.debug main .section-text{
-    background-color: pink;
-    height: 400px;
-}
 
 .debug main .lower-main{
     background-color: green;
@@ -126,7 +111,6 @@ nav{
 
 .flex-container{
     display: flex;
-    align-items: center;
 }
 
 section{
@@ -139,6 +123,20 @@ section{
 
 .section-text{
     width: 40%;
+    padding: 35px 0 0 35px;
+}
+
+.section-image img{
+    width: 100%;
+}
+
+.section-text h2{
+    font-size: 50px;
+}
+
+.section-text p{
+    padding-top: 30px;
+    line-height: 25px;
 }
 
 section:nth-child(2n+2){
