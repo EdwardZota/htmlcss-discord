@@ -8,20 +8,6 @@
 
 
 
-.debug #footer-left-big{
-    background-color: pink;
-    height: 500px;
-}
-
-.debug .footer-right{
-    background-color: #20b2aa;
-    height: 500px;
-}
-
-
-/* inizio CSS */
-
-
 .center{
     width: 75%;
     margin: auto;
@@ -163,13 +149,57 @@ footer{
 }
 
 #footer-top{
-    padding: 20px 0 40px;
+    padding: 70px 0 40px;
     display: flex;
 }
 
 #footer-left-big{
     width: 30%;
 }
+
+#footer-left-big h3{
+    color: #758bdc;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#footer-left-big span{
+    color: #fff;
+    font: 20px;
+}
+
+#footer-left-big span::after{
+    content: '\2228';
+}
+
+.icons{
+    color: #fff;
+}
+
+.icons i{
+    margin: 10px;
+}
+
+.column{
+    font-size: 20px;
+}
+
+.column h5{
+    color:#758bdc;
+}
+
+.column a{
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer-left-big img{
+    height: 20px;
+    vertical-align: middle;
+}
+
 
 .footer-right{
     width: 70%;
